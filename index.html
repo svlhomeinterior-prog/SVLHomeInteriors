@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVL INTERIORS | Premium Interior Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #f8f8f8; color: #333; }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+      url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover;
+      height: 100vh;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header h1 { font-size: 3rem; font-weight: 700; }
+    header p { margin: 20px 0; font-size: 1.2rem; }
+    header a {
+      padding: 12px 30px;
+      background: #c59d5f;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+    }
+
+    section { padding: 80px 10%; }
+
+    .about, .services, .contact { background: #fff; margin-bottom: 30px; border-radius: 12px; }
+    h2 { text-align: center; margin-bottom: 40px; font-size: 2.2rem; }
+
+    .about p { text-align: center; max-width: 800px; margin: auto; }
+
+    .services-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .service {
+      background: #f1f1f1;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .service:hover {
+      background: #c59d5f;
+      color: #fff;
+      transform: translateY(-8px);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .contact-info {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media(max-width:768px){
+      header h1 { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>SVL INTERIORS</h1>
+    <p>Luxury • Comfort • Style</p>
+    <a href="#contact">Get Free Consultation</a>
+  </div>
+</header>
+
+<section class="about">
+  <h2>About Us</h2>
+<p>
+<strong>English:</strong><br>
+SVL INTERIORS designs modern, functional, and elegant interior spaces for homes and commercial projects, focusing on quality, comfort, and style.
+<br><br>
+<strong>తెలుగు:</strong><br>
+SVL ఇంటీరియర్స్ గృహాలు మరియు వాణిజ్య ప్రాజెక్టుల కోసం నాణ్యత, సౌకర్యం మరియు స్టైల్‌కు ప్రాధాన్యతనిస్తూ ఆధునికమైన మరియు ఆకర్షణీయమైన ఇంటీరియర్ డిజైన్లు అందిస్తుంది.
+</p>
+
+</section>
+
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="services-box">
+    <div class="service">🏠 Residential Interiors</div>
+    <div class="service">🏢 Commercial Interiors</div>
+    <div class="service">🛋 Modular Kitchens</div>
+    <div class="service">🛏 Bedroom Designs</div>
+    <div class="service">🪑 Custom Furniture</div>
+    <div class="service">🎨 3D Design & Planning</div>
+  </div>
+</section>
+
+<section>
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c">
+    <img src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198">
+    <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea">
+    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d">
+    <img src="img1.jpeg" width="150">
+    <img src="img2.jpeg" width="150">
+    <img src="img3.jpeg" width="150">
+    <img src="img4.jpeg" width="150">
+    <img src="img5.jpeg" width="150">
+    <img src="img6.jpeg" width="150">
+    <img src="img7.jpeg" width="150">
+    <img src="img8.jpeg" width="150">
+    <img src="img9.jpeg" width="150">
+    <img src="img10.jpeg" width="150">
+    <img src="img11.jpeg" width="150">
+    <img src="img12.jpeg" width="150">
+    <img src="img13.jpeg" width="150"> 
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <form action="https://formsubmit.co/svlhomeinterior@gmail.com" method="POST"
+style="max-width:400px;margin:30px auto;text-align:center;">
+  <input type="text" name="name" placeholder="Your Name" required
+  style="width:100%;padding:10px;margin:8px 0;">
+  
+  <input type="email" name="email" placeholder="Your Email" required
+  style="width:100%;padding:10px;margin:8px 0;">
+  
+  <textarea name="message" placeholder="Your Message" required
+  style="width:100%;padding:10px;margin:8px 0;"></textarea>
+  
+  <button type="submit"
+  style="padding:10px 20px;background:#c59d5f;color:white;border:none;border-radius:5px;">
+    Send Message
+  </button>
+</form>
+
+    <p>📞 Phone / WhatsApp: <strong>+91 9851716888</strong></p>
+    <p>📧 Email: <strong>svlhomeinterior@gmail.com</strong></p>
+    <p>📍 Andhra Pradesh, India</p>
+  </div>
+</section>
+
+<footer>
+  © 2024 SVL INTERIORS. All Rights Reserved.
+</footer>
+<a href="https://wa.me/919851716888" target="_blank"
+style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,.3);
+z-index:1000;">
+💬 WhatsApp
+    </a>
+  
+</body>
+  </html>
